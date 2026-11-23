@@ -1,0 +1,7 @@
+# Design notes for image-guided jewellery CAD
+
+[GenCAD](https://github.com/ferdous-alam/GenCAD) separates interpreting a reference image from representing the result as CAD operations. This skill takes the same high-level cue but uses the agent to write a transparent geometric spec and a deterministic exporter to build it. It does not depend on GenCAD code, weights, or CUDA. A photo suggests shape but does not supply absolute size, wall thickness, back geometry, or manufacturing tolerances.
+
+[Awesome Jewelry AI](https://github.com/formanova-ai/awesome-jewelry-ai) emphasizes preserving jewellery identity when generating images. Apply that principle to CAD: count openings and stones, check silhouette and symmetry, and preserve the apparent orientation of intentional details. Compare the SVG against the image and the numeric report against supplied measurements. These are separate checks: a close-looking silhouette can still be the wrong size.
+
+For rings, distinguish the inside diameter, radial wall, and axial height. For pendants, distinguish the overall silhouette from thickness and specify the hole diameter and centre. For a rounded rectangle, record the width, height, plan-view corner radius, and distance from the top edge to the hole centre. Check the remaining material around the hole and confirm attachment clearance separately. Do not represent a stone as a drilled hole unless the user asked for that simplification. Mark visible unsupported details, such as prongs, rather than silently dropping them.

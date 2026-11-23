@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="21.78mm" height="30.78mm"
+     viewBox="-10.89 -14.89 21.78 30.78">
+  <title>Shield pendant</title>
+  <desc>Dimensioned in millimeters. Closed outline followed by optional circular holes.</desc>
+  <g transform="scale(1,-1)" fill="none" stroke="#132f42" stroke-width="0.108">
+    <polygon id="outline" points="0.0,-14.0 9.0,-7.0 9.0,9.0 5.0,13.0 -5.0,13.0 -9.0,9.0 -9.0,-7.0"/>
+    <circle id="hole-1" cx="0.0" cy="9.0" r="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "Rounded rectangle pendant concept",
+  "units": "mm",
+  "outline_type": "polygon",
+  "bounds_mm": {
+    "min_x": -9.0,
+    "min_y": -13.0,
+    "max_x": 9.0,
+    "max_y": 13.0
+  },
+  "width_mm": 18.0,
+  "height_mm": 26.0,
+  "hole_count": 1,
+  "outline_area_mm2": 460.27433388230816,
+  "net_area_mm2": 453.2057504117311,
+  "files": [
+    "sketch.svg",
+    "sketch.dxf",
+    "report.json",
+    "solid.step",
+    "solid.stl"
+  ],
+  "corner_radius_mm": 3.0,
+  "thickness_mm": 2.0,
+  "volume_mm3": 906.4115008234622
+}

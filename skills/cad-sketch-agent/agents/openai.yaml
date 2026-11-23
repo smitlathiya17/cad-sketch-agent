@@ -1,0 +1,4 @@
+interface:
+  display_name: "CAD Sketch Agent"
+  short_description: "Create dimensioned 2D sketches and simple CAD solids"
+  default_prompt: "Use $cad-sketch-agent to turn this image or description into a dimensioned CAD sketch."

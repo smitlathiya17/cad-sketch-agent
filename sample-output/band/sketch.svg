@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24.51mm" height="24.51mm"
+     viewBox="-12.255 -12.255 24.51 24.51">
+  <title>Plain ring band</title>
+  <desc>Dimensioned in millimeters. Closed outline followed by optional circular holes.</desc>
+  <g transform="scale(1,-1)" fill="none" stroke="#132f42" stroke-width="0.08600000000000001">
+    <circle id="outline" cx="0.0" cy="0.0" r="10.75"/>
+    <circle id="hole-1" cx="0.0" cy="0.0" r="9.0"/>
+  </g>
+</svg>

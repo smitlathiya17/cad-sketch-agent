@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="21.64mm" height="29.64mm"
+     viewBox="-10.82 -14.82 21.64 29.64">
+  <title>Rounded rectangle pendant concept</title>
+  <desc>Dimensioned in millimeters. Closed outline followed by optional circular holes.</desc>
+  <g transform="scale(1,-1)" fill="none" stroke="#132f42" stroke-width="0.10400000000000001">
+    <path id="outline" d="M -9.0 -10.0 A 3.0 3.0 0 0 1 -6.0 -13.0 L 6.0 -13.0 A 3.0 3.0 0 0 1 9.0 -10.0 L 9.0 10.0 A 3.0 3.0 0 0 1 6.0 13.0 L -6.0 13.0 A 3.0 3.0 0 0 1 -9.0 10.0 Z"/>
+    <circle id="hole-1" cx="0.0" cy="8.5" r="1.5"/>
+  </g>
+</svg>

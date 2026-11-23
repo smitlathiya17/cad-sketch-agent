@@ -1,0 +1,16 @@
+{
+  "name": "Shield pendant",
+  "units": "mm",
+  "outline": {
+    "type": "polygon",
+    "points": [[0, -14], [9, -7], [9, 9], [5, 13], [-5, 13], [-9, 9], [-9, -7]]
+  },
+  "holes": [
+    {
+      "type": "circle",
+      "center": [0, 9],
+      "radius": 1.5
+    }
+  ],
+  "thickness_mm": 1.5
+}

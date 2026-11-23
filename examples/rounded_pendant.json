@@ -1,0 +1,17 @@
+{
+  "name": "Rounded rectangle pendant concept",
+  "units": "mm",
+  "outline": {
+    "type": "polygon",
+    "points": [[-9, -13], [9, -13], [9, 13], [-9, 13]],
+    "corner_radius": 3
+  },
+  "holes": [
+    {
+      "type": "circle",
+      "center": [0, 8.5],
+      "radius": 1.5
+    }
+  ],
+  "thickness_mm": 2
+}

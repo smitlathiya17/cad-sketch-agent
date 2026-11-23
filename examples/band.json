@@ -1,0 +1,17 @@
+{
+  "name": "Plain ring band",
+  "units": "mm",
+  "outline": {
+    "type": "circle",
+    "center": [0, 0],
+    "radius": 10.75
+  },
+  "holes": [
+    {
+      "type": "circle",
+      "center": [0, 0],
+      "radius": 9
+    }
+  ],
+  "thickness_mm": 4
+}
